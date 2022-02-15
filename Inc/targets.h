@@ -12,7 +12,7 @@
 //#define AIKON20X20
 //#define AIKONSINGLE
 //#define FLYCOLOR
-#define BPBRUSHLESS
+#define BPOWER
 
 //#define G072ESC
 //#define G071ENABLE
@@ -152,7 +152,7 @@
 #define USE_SERIAL_TELEMETRY
 #endif
 
-#ifdef BPBRUSHLESS
+#ifdef BPOWER
 #define FIRMWARE_NAME           "BPBRUSHLESS "
 #define DEAD_TIME               45
 #define HARDWARE_GROUP_F0_I
