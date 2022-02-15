@@ -152,8 +152,8 @@
 #define USE_SERIAL_TELEMETRY
 #endif
 
-#ifdef 
-#define BPBRUSHLESS           "BPBRUSHLESS_PA2  "
+#ifdef BPBRUSHLESS
+#define FIRMWARE_NAME           "BPBRUSHLESS_PA2  "
 #define DEAD_TIME               45
 #define HARDWARE_GROUP_F0_I
 #define USE_SERIAL_TELEMETRY
