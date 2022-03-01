@@ -13,8 +13,8 @@
 //#define AIKON20X20
 //#define AIKONSINGLE
 //#define FLYCOLOR
-#define AM32REF
-//#define BLPWR
+//#define AM32REF
+#define BLPWR
 //#define HVFLYCOLOR
 
 //#define G072ESC
@@ -163,7 +163,7 @@
 
 #ifdef BLPWR
 #define FIRMWARE_NAME           "BlPwr-ESC"
-#define DEAD_TIME               20
+#define DEAD_TIME               45
 #define HARDWARE_GROUP_F0_A
 #define MILLIVOLT_PER_AMP       20
 #define CURRENT_OFFSET          0
